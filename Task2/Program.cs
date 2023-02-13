@@ -16,16 +16,19 @@ System.Console.WriteLine("Введите третье число");
 string usernumber3 = Console.ReadLine();
 int number3 = Convert.ToInt32(usernumber3);
 
-if (number2 > number1);
+int MaxNumber = number1;
+
+if (number2 > MaxNumber)
 {
     System.Console.WriteLine($"Число {number2} максимальное");
 }
-else if (number3 > number2)
+else if (number3 > MaxNumber)
 {
     System.Console.WriteLine($"Число {number3} максимальное");
 }
-else
+else 
 {
     System.Console.WriteLine($"Число {number1} максимальное");
 }
+
 
